@@ -1,0 +1,7 @@
+<view tiki:if="{{isLoggedIn}}">
+  Hello, your authcode is: {{authCode}}
+</view>
+<view tiki:if="{{!isLoggedIn}}">
+  <view>Please login to get better experience</view>
+  <button onTap="onLogin">Login</button>
+</view>
