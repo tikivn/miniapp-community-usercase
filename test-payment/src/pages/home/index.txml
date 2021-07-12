@@ -1,0 +1,18 @@
+<block tiki:if="{{user}}">
+  <view class="flex flex-col h-full">
+    <view class="flex flex-grow p-medium">
+      Welcome back to Tini App
+    </view>
+  </view>
+</block>
+<block tiki:else>
+  <view class="flex flex-col flex-grow h-full">
+    <view class="flex flex-grow flex-col p-medium mt-medium spacey-medium items-center justify-center">
+      <image src="../../images/error.png" style="width: 160px; height: 160px;" />
+      <text>Bạn chưa login, vui lòng login để trải nghiệm app tốt hơn</text>
+    </view>
+    <view class="flex flex-row p-2x-small spacex-2x-small border border-top border-solid border-gray40">
+      <button class="radius-pill flex-grow" onTap="onTapLogin">Login</button>
+    </view>
+  </view>
+</block>

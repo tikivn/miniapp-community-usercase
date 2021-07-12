@@ -1,7 +1,6 @@
 {
   "pages": [
-    "pages/auth/index",
-    "pages/debug/index"
+    "pages/home/index"
   ],
   "window": {
     "allowsBounceVertical": "NO",
