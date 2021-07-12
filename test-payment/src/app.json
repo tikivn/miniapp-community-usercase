@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/auth/index",
+    "pages/debug/index"
+  ],
+  "window": {
+    "allowsBounceVertical": "NO",
+    "pullRefresh": "NO",
+    "defaultTitle": "My App"
+  }
+}

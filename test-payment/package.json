@@ -1,0 +1,12 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "tiki": {
+    "appIdentifier": "vn.tiki.miniapp.tikifoundation",
+    "buildNumber": 1
+  },
+  "dependencies": {
+    "@tiki.vn/tini-ui": "^0.1.2-rc.13",
+    "tiki-miniapp-tnx": "^0.1.1-rc.5"
+  }
+}
