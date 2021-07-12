@@ -3,6 +3,10 @@
     <view class="flex flex-grow p-medium">
       Welcome back to Tini App
     </view>
+    <view class="flex flex-row p-2x-small spacex-2x-small border border-top border-solid border-gray40">
+      <button class="radius-pill flex-grow" loading={{loading}} onTap="onPay">Pay</button>
+      <button class="radius-pill" type="outline" onTap="onGoToDebug">D</button>
+    </view>
   </view>
 </block>
 <block tiki:else>

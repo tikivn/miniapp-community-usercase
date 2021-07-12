@@ -21,6 +21,9 @@ Page({
         },
       })
       myx.debug(`login successful`)
+      this.setData({
+        user: res.data
+      })
     } finally {
       this.setData({
         loading: false
