@@ -7,7 +7,19 @@
   resolved "https://registry.yarnpkg.com/@tiki.vn/tini-style/-/tini-style-0.1.1.tgz#6333d4b85e2a153443fadf25fd0127dc8c4d0ee4"
   integrity sha512-V0JVBhsYmQ7Ue/NZ770Do6SxnJ2uvchAu13Y2pGkSXgfNflLhAY7r/I8QOyfOxvFhlaMLLH4i1KF6amk+vw9NA==
 
-"@tiki.vn/tini-ui@^0.1.2", "@tiki.vn/tini-ui@^0.1.2-rc.13":
+"@tiki.vn/tini-style@0.1.2-rc.13+26fb292":
+  version "0.1.2-rc.13"
+  resolved "https://registry.yarnpkg.com/@tiki.vn/tini-style/-/tini-style-0.1.2-rc.13.tgz#fe648969f6d93eb45cbf9801288c4f151077f893"
+  integrity sha512-u701whgaAE57ulxcItgQO0WcN0vdcgu/n8UHAhL8Wg09SbV7TXF71hdcruIguFpN0Ac7z5gMCO3t6yDawfY5Sw==
+
+"@tiki.vn/tini-ui@^0.1.2":
+  version "0.1.2-rc.13"
+  resolved "https://registry.yarnpkg.com/@tiki.vn/tini-ui/-/tini-ui-0.1.2-rc.13.tgz#1f5aa88c2fa8a396a82f1af14d909f2e896c67ff"
+  integrity sha512-0EctrDF8DlmOAPZnw1qRHV8hRJUeXbEn9+sSPdEXQPt46TJOTNF4D+u6N/2NDtHoHtInKmK28WtvbFxp2WWYsg==
+  dependencies:
+    "@tiki.vn/tini-style" "0.1.2-rc.13+26fb292"
+
+"@tiki.vn/tini-ui@^0.1.2-rc.13":
   version "0.1.2-rc.14"
   resolved "https://registry.yarnpkg.com/@tiki.vn/tini-ui/-/tini-ui-0.1.2-rc.14.tgz#57347324245e22706db6498f8148d1f4d5855cdc"
   integrity sha512-f8A0m9r5MWURUAEWwAAkd3SIGpLMdV/NkHMt0eAoLKnvwxiWlZwzWOi7XDJzz72mYMOgjcktdqKHkQsF4mcRNA==
