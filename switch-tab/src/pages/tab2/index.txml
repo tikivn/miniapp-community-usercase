@@ -1,0 +1,2 @@
+<view>This is blank page</view>
+<button onTap="onTap">Switch to Tab1</button>

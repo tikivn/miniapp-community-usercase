@@ -1,0 +1,8 @@
+{
+  "name": "switch-tab",
+  "version": "0.1.14",
+  "tiki": {
+    "appIdentifier": "vn.tiki.miniapp.foundation.test",
+    "buildNumber": 11
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/tab1/index",
+    "pages/tab2/index"
+  ],
+  "window": {
+    "defaultTitle": "My App"
+  },
+  "tabBar": {
+    "items": [
+      {
+        "name": "tab1",
+        "pagePath": "pages/tab1/index",
+        "icon": "images/tab1.png",
+        "activeIcon": "images/tab1_active.png"
+      },
+      {
+        "name": "tab2",
+        "pagePath": "pages/tab2/index",
+        "icon": "images/tab2.png",
+        "activeIcon": "images/tab2_active.png"
+      }
+    ]
+  }
+}
