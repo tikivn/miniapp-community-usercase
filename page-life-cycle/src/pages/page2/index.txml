@@ -1,2 +1,5 @@
-<view>This is blank page</view>
+<view>Page2</view>
+<block tiki:for="{{message}}">
+  <view>{{item}}</view>
+</block>
 <button onTap="onTap">Go to page1</button>

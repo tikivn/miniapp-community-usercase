@@ -1,8 +1,8 @@
 {
   "name": "page-life-cycle",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "tiki": {
-    "appIdentifier": "vn.tiki.miniapp.community.pagecycle",
+    "appIdentifier": "vn.tiki.miniapp.community.pagecycl",
     "buildNumber": 1
   }
 }
