@@ -1,18 +1,38 @@
 Page({
   onLoad(query) {
-    console.log('page2 onload');
+    const message = this.data.message || [];
+    message.push('page2 onload');
+    this.setData({
+      message,
+    })
   },
   onReady() {
-    console.log('page2 onready');
+    const message = this.data.message || [];
+    message.push('page2 onready');
+    this.setData({
+      message,
+    })
   },
   onShow() {
-    console.log('page2 onshow');
+    const message = this.data.message || [];
+    message.push('page2 onshow');
+    this.setData({
+      message,
+    })
   },
   onHide() {
-    console.log('page2 onhide');
+    const message = this.data.message || [];
+    message.push('page2 onhide');
+    this.setData({
+      message,
+    })
   },
   onUnload() {
-    console.log('page2 onunload');
+    const message = this.data.message || [];
+    message.push('page2 onunload');
+    this.setData({
+      message,
+    })
   },
   onTap() {
     my.navigateTo({
