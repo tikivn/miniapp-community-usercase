@@ -1,0 +1,5 @@
+<view>
+  <view>price is: {{price}}</view>
+  <stepper onChange="onChange" />
+  <view style="width: 40px; height: 40px; background-color: red;" />
+</view>

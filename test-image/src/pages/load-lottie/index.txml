@@ -1,0 +1,10 @@
+<lottie
+  id="lottie"
+  loop="{{true}}"
+  autoplay="{{true}}"
+  onComplete="onComplete"
+  onLoopComplete="onLoopComplete"
+  onDataFailed="onDataFailed"
+  onDataReady="onDataReady"
+  path="/assets/lottie/smoke.json"
+/>

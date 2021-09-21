@@ -1,0 +1,5 @@
+<image src="/assets/images/image1.png" />
+
+<view>token: {{token}}</view>
+<view>message: {{message}}</view>
+<button onTap="onTap">tap</button>

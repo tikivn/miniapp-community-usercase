@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "component": "pages/index/component/index",
+    "component2": "pages/index/component2/index",
+    "tu-button": "@tiki.vn/tini-ui/es/tu-button"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "pages": [
+    "pages/load-lottie/index"
+  ],
+  "window": {
+    "defaultTitle": "My App"
+  }
+}

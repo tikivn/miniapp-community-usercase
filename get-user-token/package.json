@@ -1,0 +1,8 @@
+{
+  "name": "get-user-token",
+  "version": "0.1.0",
+  "tiki": {
+    "appIdentifier": "vn.tiki.miniapp.test.getusertoken",
+    "buildNumber": 1
+  }
+}

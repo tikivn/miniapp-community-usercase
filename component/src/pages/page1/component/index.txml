@@ -1,0 +1,6 @@
+<view>My Prop: {{propMessage}}</view>
+<view>My Data: {{dataMessage}}</view>
+<button onTap="onChangePage">Change page data</button>
+<button onTap="onChangeComponent">Change component data</button>
+<component2 />
+<view>hello</view>

@@ -1,0 +1,3 @@
+<view>token: {{token}}</view>
+<view>message: {{message}}</view>
+<button onTap="onTap">tap</button>

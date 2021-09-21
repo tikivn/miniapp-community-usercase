@@ -1,0 +1,11 @@
+{
+  "name": "component",
+  "version": "0.1.0",
+  "tiki": {
+    "appIdentifier": "vn.tiki.miniapp.test.components",
+    "buildNumber": 1
+  },
+  "dependencies": {
+    "tiki-miniapp-tnx": "^0.1.1-rc.5"
+  }
+}
