@@ -1,0 +1,2 @@
+<image src="/assets/images/image1.png" />
+<view>{{message}}</view>

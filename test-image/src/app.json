@@ -1,7 +1,5 @@
 {
-  "pages": [
-    "pages/load-lottie/index"
-  ],
+  "pages": ["pages/webview-postmessage/index"],
   "window": {
     "defaultTitle": "My App"
   }

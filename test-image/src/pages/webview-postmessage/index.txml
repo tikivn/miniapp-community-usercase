@@ -1,0 +1,1 @@
+<web-view id="web-view1" src="/public/webview/index.html" onMessage="onMessage" />

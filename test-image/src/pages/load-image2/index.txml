@@ -1,0 +1,2 @@
+<image lazy-load="{{true}}" src="{{url}}" />
+<button onTap="changeUrl">Tap me</button>
