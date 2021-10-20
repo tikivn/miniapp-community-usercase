@@ -1,0 +1,5 @@
+<view>page</view>
+<my-component title="component 2" onComponentLifecycle="onComponentLifecycle" />
+<block tiki:for={{texts}}>
+  <view>{{item}}</view>
+</block>

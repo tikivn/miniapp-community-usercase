@@ -2,7 +2,7 @@
   "name": "page-life-cycle",
   "version": "0.0.1",
   "tiki": {
-    "appIdentifier": "vn.tiki.miniapp.community.pagecycl",
-    "buildNumber": 1
+    "appIdentifier": "vn.tiki.miniapp.test.lifecycle",
+    "buildNumber": 2
   }
 }

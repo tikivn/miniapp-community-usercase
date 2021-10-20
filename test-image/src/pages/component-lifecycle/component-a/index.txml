@@ -1,0 +1,7 @@
+<view>
+  <text>start: {{title}}</text>
+  <view tiki:for="{{texts}}">
+    <text>{{item}}</text>
+  </view>
+  <view>end: {{title}}</view>
+</view>

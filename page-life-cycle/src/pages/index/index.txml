@@ -1,0 +1,3 @@
+<view>
+ <button onTap="onTapNavigate">Navigate</button>
+</view>
