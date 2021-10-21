@@ -1,5 +1,5 @@
 {
-  "pages": ["pages/component-lifecycle/index"],
+  "pages": ["pages/custom-font", "pages/tala-request"],
   "window": {
     "defaultTitle": "My App"
   }
