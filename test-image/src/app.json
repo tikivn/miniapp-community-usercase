@@ -1,6 +1,18 @@
 {
-  "pages": ["pages/my-alert"],
+  "pages": ["pages/get-token/index", "pages/aia-form/index", "pages/navigate-to/index", "pages/my-alert/index"],
   "window": {
     "defaultTitle": "My App"
+  },
+  "tabBar": {
+    "items": [
+      {
+        "name": "aia-form",
+        "pagePath": "pages/get-token/index"
+      },
+      {
+        "name": "my-alert",
+        "pagePath": "pages/my-alert/index"
+      }
+    ]
   }
 }

@@ -34,4 +34,9 @@ Page({
       this.setData({ message: 'isLoggedIn unsupported' });
     }    
   },
+  onMove() {
+    my.navigateTo({
+      url: "pages/navigate-to/index"
+    })
+  }
 });

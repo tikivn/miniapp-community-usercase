@@ -1,0 +1,2 @@
+<view>Navigate to</view>
+<button onTap="backHome">backHome</button>
