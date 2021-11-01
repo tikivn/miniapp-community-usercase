@@ -1,5 +1,5 @@
 {
-  "pages": ["pages/custom-font", "pages/tala-request"],
+  "pages": ["pages/my-alert"],
   "window": {
     "defaultTitle": "My App"
   }

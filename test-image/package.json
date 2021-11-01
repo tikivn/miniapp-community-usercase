@@ -1,11 +1,14 @@
 {
   "name": "test-image",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "tiki": {
     "appIdentifier": "vn.tiki.miniapp.testimage",
     "buildNumber": 11
   },
   "dependencies": {
     "@tiki.vn/tini-ui": "0.1.2-rc.24"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4"
   }
 }
