@@ -1,0 +1,5 @@
+<view>
+  page2: {{message}}
+</view>
+<component />
+<button onTap="onTap">onTap</button>

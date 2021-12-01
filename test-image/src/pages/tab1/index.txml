@@ -1,0 +1,2 @@
+<view>message: {{message}}</view>
+<button onTap="onTap">onTap</button>

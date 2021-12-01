@@ -1,0 +1,5 @@
+<view>{{message}}</view>
+<button onTap="relaunchPage">relaunch page</button>
+<button onTap="relaunchTab">relaunch tab</button>
+<button onTap="redirectTo">redirect to</button>
+<button onTap="navigateTo">navigate to</button>

@@ -1,18 +1,12 @@
 {
-  "pages": ["pages/get-token/index", "pages/aia-form/index", "pages/navigate-to/index", "pages/my-alert/index"],
+  "pages": [
+    "pages/hmr-component/index",
+    "pages/webview-public/index",
+    "pages/relaunch/index",
+    "pages/tab1/index", 
+    "pages/tab2/index"
+  ],
   "window": {
     "defaultTitle": "My App"
-  },
-  "tabBar": {
-    "items": [
-      {
-        "name": "aia-form",
-        "pagePath": "pages/get-token/index"
-      },
-      {
-        "name": "my-alert",
-        "pagePath": "pages/my-alert/index"
-      }
-    ]
   }
 }

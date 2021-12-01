@@ -1,12 +1,18 @@
 {
   "name": "test-image",
-  "version": "0.0.3",
+  "version": "0.0.2",
   "tiki": {
     "appIdentifier": "vn.tiki.miniapp.testimage",
-    "buildNumber": 11
+    "buildNumber": 17,
+    "metadata": {
+      "permissions": [
+        "getUserPhoneAndEmail"
+      ]
+    }
   },
   "dependencies": {
-    "@tiki.vn/tini-ui": "0.1.2-rc.24"
+    "@tiki.vn/tini-ui": "0.1.2-rc.24",
+    "bip39": "^3.0.4"
   },
   "devDependencies": {
     "typescript": "^4.4.4"
