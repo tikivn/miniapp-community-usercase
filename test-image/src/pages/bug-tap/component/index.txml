@@ -1,0 +1,2 @@
+<view onTap="onTap">onTap component</view>
+<view onTap="onTap2">onTap 2 component</view>

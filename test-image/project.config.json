@@ -1,3 +1,6 @@
 {
-  "miniprogramRoot": "src"
+  "miniprogramRoot": "src",
+  "settings": {
+    "enhance": true
+  }
 }

@@ -1,10 +1,6 @@
 {
   "pages": [
-    "pages/hmr-component/index",
-    "pages/webview-public/index",
-    "pages/relaunch/index",
-    "pages/tab1/index", 
-    "pages/tab2/index"
+    "pages/webview-postmessage/index"
   ],
   "window": {
     "defaultTitle": "My App"

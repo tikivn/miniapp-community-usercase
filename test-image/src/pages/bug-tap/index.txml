@@ -1,0 +1,4 @@
+<view>
+  <component onTap="onTapPage" />
+  <view onTap="onTapPage">onTap Page</view>
+</view>

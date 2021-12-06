@@ -1,1 +1,1 @@
-<web-view id="web-view1" src="https://tiki.vn" onMessage="onMessage" />
+<game-view id="web-view1" onMessage="onMessage" />

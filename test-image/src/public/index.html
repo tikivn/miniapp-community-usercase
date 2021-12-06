@@ -1,3 +1,50 @@
-<body>
-  hello các bạn nhe
-</body>
+<script>
+  function debug(...args) {
+    const root = document.getElementById("root");
+    root.innerHTML = root.innerHTML + '<br />' + args.join(' ')
+  }
+  
+  setTimeout(() => {
+    my.getUserInfo({
+      success: (res) => {
+        debug('success', JSON.stringify(res))
+      },
+      fail: (res) => {
+        debug('fail', res)
+      }
+    })
+  }, 100);
+  
+  // simple client to send request to Tini App from WebView
+  const callbacks = {};
+  window.addEventListener('message', (e) => {
+    const { requestId, result } = e.data;
+    if (callbacks[requestId] === undefined) {
+      return;
+    }
+
+    const callback = callbacks[requestId];
+    delete callbacks[requestId];
+    callback(result);
+  });
+
+  function sendMessageToTiniApp(params, callback) {
+    const requestId = new Date().getTime();
+    callbacks[requestId] = callback;
+    debug('send to Tini App', requestId, JSON.stringify(params));
+    my.postMessage({ requestId, params });
+  }
+
+  
+  setTimeout(() => {
+    // how to use the client
+    sendMessageToTiniApp({
+      api: 'getUserInfo'
+    }, (result) => {
+      debug('result from Tini App', JSON.stringify(result))
+    })
+  }, 0)
+</script>
+
+<div>This is content from webview</div>
+<div id="root" />
