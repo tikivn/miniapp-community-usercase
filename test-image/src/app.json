@@ -1,7 +1,5 @@
 {
-  "pages": [
-    "pages/webview-postmessage/index"
-  ],
+  "pages": ["pages/component-lifecycle/index"],
   "window": {
     "defaultTitle": "My App"
   }
