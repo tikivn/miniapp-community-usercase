@@ -1,12 +1,13 @@
 {
   "name": "test-image",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "tiki": {
     "appIdentifier": "vn.tiki.miniapp.testimage",
-    "buildNumber": 21,
+    "buildNumber": 15,
     "metadata": {
       "permissions": [
-        "getUserPhoneAndEmail"
+        "getUserPhoneAndEmail",
+        "setWebViewOnLoad"
       ]
     }
   },

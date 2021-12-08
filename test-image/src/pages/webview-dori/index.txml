@@ -1,1 +1,1 @@
-<web-view src="https://beta.tala.xyz/volvo/cybersource/form?merchant_id=dori&ref_id=4b2aa34fc4737eea9f2dbc3e568fde66" />
+<web-view src="https://tiki.vn" injectedScript="/public/js/tiki.js" />
