@@ -3,7 +3,7 @@
   "version": "0.0.3",
   "tiki": {
     "appIdentifier": "vn.tiki.miniapp.testimage",
-    "buildNumber": 15,
+    "buildNumber": 16,
     "metadata": {
       "permissions": [
         "getUserPhoneAndEmail",

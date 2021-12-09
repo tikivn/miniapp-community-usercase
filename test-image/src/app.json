@@ -1,5 +1,5 @@
 {
-  "pages": ["pages/component-lifecycle/index"],
+  "pages": ["pages/webview-dori/index"],
   "window": {
     "defaultTitle": "My App"
   }

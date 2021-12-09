@@ -1,1 +1,1 @@
-<web-view src="https://tiki.vn" injectedScript="/public/js/tiki.js" />
+<web-view src="https://sbgateway.zalopay.vn/" injectedScript="/public/js/tiki.js" />
